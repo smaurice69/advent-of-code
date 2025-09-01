@@ -4,7 +4,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e89481dc-e540-4043-989f-05fc66f51a33</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>advent_of_code.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,7 +23,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="advent_of_code.py" />
+    <Compile Include="aoc2017\day01\part1.py" />
+    <Compile Include="aoc2017\day01\__init__.py" />
+    <Compile Include="aoc2017\__init__.py" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
@@ -41,6 +44,10 @@
   <ItemGroup>
     <Content Include=".gitignore" />
     <Content Include="requirements.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="aoc2017\" />
+    <Folder Include="aoc2017\day01\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
